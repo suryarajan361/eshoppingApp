@@ -1,0 +1,21 @@
+
+<h1>Tops Picks On Fashion</h1>
+		
+       
+
+<div class="row list_list" style="margin: 1em 0;">
+  <div class="col-sm-12 col-md-6 col-lg-4 list__list" *ngFor="let list of listData?.lists; let i = index;">
+    <div class="card mb-4 shadow-sm pd-5">
+      <div class="list_list__image">
+       <img class="card-img-top" src="{{list.image}}" alt="Card image cap">
+      </div>
+
+      <div class="card-body">
+        <h4>{{list.name}}</h4>
+        <h4>price:{{list.price}}</h4> 
+       
+       
+        
+      </div>
+    </div>
+  </div>

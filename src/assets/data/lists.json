@@ -1,0 +1,56 @@
+{
+  "lists": [
+    {
+      "id": "001",
+      "name": "Designer Satchel Tote Bag Shoulder Bag",
+      "price": "Rs.229",
+      "stock":"Available",
+      "offers":"From 50% Offers",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/910zU0vyBrL._AC_UL1500_.jpg"
+      
+    },
+    {
+      "id": "002",
+      "name": "NIBESSER 2020 Women Shoulder Bag",
+      "price": "Rs.300",
+      "stock":"Available",
+      "offers":"From 50% Offers",
+      "image": "https://ae01.alicdn.com/kf/HLB11kMpacrrK1RjSspaq6AREXXaV/NIBESSER-2020-Women-Shoulder-Bag-Women-Designer-Luxury-Handbags-Women-Bags-Plum-Bow-Sweet-Messenger-Crossbody.jpg"
+    },
+    {
+      "id": "003",
+      "name": "ALARION Womens Purses and Handbags Shoulder Bag Ladies",
+      "price": "Rs.500",
+      "stock":"Available",
+      "offers":"From 50% Offers",
+      "image": "https://i.pinimg.com/736x/2f/0d/a4/2f0da420427a7f1d0c4b8d26f5342930.jpg"
+      
+    },
+    {
+      "id": "004",
+      "name": "Running Shoes For Men  (Navy, White, Blue, Black)",
+      "price": "Rs.1600",
+      "stock":"Available",
+      "image":"https://rukminim1.flixcart.com/image/800/960/jbgtnrk0/shoe/u/4/g/light-weight-and-fashionable-sports-casual-8-hd-black-original-imafy74whszndygb.jpeg?q=50"
+     
+    },
+    {
+      "id": "005",
+      "name": "adidas Pulseboost HD Winterized: Keeping Your Feet Protected, Warm and Dry",
+      "price": "Rs.400",
+      "stock":"Available",
+      "offers":"From 50% Offers",
+      "image": "https://i0.wp.com/www.runsociety.com/wp-content/uploads/2019/10/adidas-Pulseboost-HD-Winterized-review-runsociety-new1-thumb.jpg?fit=1600%2C900&ssl=1"
+     
+    },
+    {
+      "id": "006",
+      "name": "Adidas Women's Pulseboost Hd W Core Black",
+      "price": "Rs.2000",
+      "stock":"Available",
+      "offers":"From 50% Offers",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Pa8ucZMYL._UL1500_.jpg"
+     
+    }
+  ]
+}

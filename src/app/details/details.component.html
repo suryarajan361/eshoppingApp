@@ -1,0 +1,40 @@
+<mat-toolbar>
+
+    <img src="https://content3.jdmagicbox.com/comp/chennai/u7/044pxx44.xx44.180411225011.p7u7/catalogue/flipkart-zonal-office-pudupakkam-chennai-business-centres-2lfq2ubcz0.jpg?clr=1b3b4b"style="width:150px;height:60px;" class="offset-s3">
+    <div class="input-group search-box">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <div class="input-group-append">
+        <button type="button" class="btn btn-outline-success my-2 my-sm-0" type="submit"><span>Search</span></button>
+      </div>
+    </div>
+    <mat-icon  class="icon-color">add_shopping_cart</mat-icon>
+    <button mat-button class="position-right">My Orders</button>
+    </mat-toolbar>
+    <h2>Product Details</h2>
+<div class="container" *ngIf="views">
+  <div class="item-img-container">
+      <img class="itemImg" mat-card-image style="width: 100%; padding: 20px;" [src]="views.image"
+          alt="Photo of a Shiba Inu">
+         
+  </div>
+  <div class="item-description">
+    <h2 style="font-weight: 400;"> {{views.name}}</h2>
+    <h2 style="font-weight: 400;"> {{views.price}}</h2>
+    <h2 style="font-weight: 400;"> {{views.stock}}</h2>
+    <h2 style="font-weight: 400;"> {{views.offers}}</h2>
+    
+    <div class="rating-container">
+        <span>Star: 5.0</span>
+        <span class="rating">rating:4.5</span>
+    </div>
+    <div class="button-group">
+      <button mat-button mat-raised-button color="primary" class="buy-now-button space">BUY NOW</button>
+    </div>
+    <mat-card-actions>
+    
+      <button  mat-raised-button color="primary" class="btn-size" (click)="addToCart()"> Add to Cart</button>
+
+      
+    </mat-card-actions>
+  </div>
+</div>

@@ -1,0 +1,202 @@
+
+ <button mat-button [matMenuTriggerFor]="electronices">Electronices</button>
+
+ <mat-menu #electronices="matMenu">
+   <button mat-menu-item [matMenuTriggerFor]="mobile">Mobile</button>
+   <button mat-menu-item [matMenuTriggerFor]="speaker">Speaker</button>
+ </mat-menu>
+
+ <mat-menu #mobile="matMenu">
+   <button mat-menu-item [matMenuTriggerFor]="laptops">Laptops</button>
+   <button mat-menu-item [matMenuTriggerFor]="accessories">Accessories</button>
+   <button mat-menu-item>Mi</button>
+   <button mat-menu-item>Honor</button>
+   <button mat-menu-item>Realme</button>
+   <button mat-menu-item>Apple</button>
+   <button mat-menu-item>OPPO</button>
+ </mat-menu>
+
+ <mat-menu #speaker="matMenu">
+   <button mat-menu-item>Home Audio Speaker</button>
+   <button mat-menu-item>Home Theater</button>
+   <button mat-menu-item>Sound bars</button>
+   
+ </mat-menu>
+
+ <mat-menu #laptops="matMenu">
+   <button mat-menu-item>Gaming Laptops</button>
+   <button mat-menu-item>Personal Laptops</button>
+  
+ </mat-menu>
+
+ <mat-menu #accessories="matMenu">
+   <button mat-menu-item>Mobile Cable</button>
+   <button mat-menu-item>Mobile Cases</button>
+   <button mat-menu-item>Mobile Charger</button>
+   <button mat-menu-item>Mobile Holder</button>
+ </mat-menu>
+
+ 
+ <button mat-button [matMenuTriggerFor]="mens">Mens</button>
+
+ <mat-menu #mens="matMenu">
+ <button mat-menu-item [matMenuTriggerFor]="clothing">Clothing</button>
+   <button mat-menu-item [matMenuTriggerFor]="footwear">Footwear</button>
+   <button mat-menu-item [matMenuTriggerFor]="watches">Watches</button>
+  
+ </mat-menu>
+
+ <mat-menu #clothing="matMenu">
+   <button mat-menu-item [matMenuTriggerFor]="topwear">Topwear</button>
+   <button mat-menu-item [matMenuTriggerFor]="winterwear">Winterwear</button>
+   <button mat-menu-item>Shirt</button>
+   <button mat-menu-item>T-Shirt</button>
+   <button mat-menu-item>Pants</button>
+
+ </mat-menu>
+
+ <mat-menu #footwear="matMenu">
+   <button mat-menu-item>Sports Shoes</button>
+   <button mat-menu-item>Casual Shoes</button>
+   <button mat-menu-item>Formal Shoes</button>
+   
+ </mat-menu>
+
+ <mat-menu #topwear="matMenu">
+   <button mat-menu-item>Causal shirt</button>
+   <button mat-menu-item>Formal shirt</button>
+  
+ </mat-menu>
+
+ <mat-menu #winterwear="matMenu">
+   <button mat-menu-item>Sweater</button>
+   <button mat-menu-item>Jackets</button>
+   
+ </mat-menu>
+  <mat-menu #watches="matMenu">
+   <button mat-menu-item>Titan</button>
+   <button mat-menu-item>Sonato</button>
+   
+ </mat-menu>
+
+
+ 
+<button mat-button [matMenuTriggerFor]="womens">Womens</button>
+
+ <mat-menu #womens="matMenu">
+ <button mat-menu-item [matMenuTriggerFor]="clothing">Clothing</button>
+   <button mat-menu-item [matMenuTriggerFor]="footwear">Footwear</button>
+   <button mat-menu-item [matMenuTriggerFor]="beauty">Beauty</button>
+  
+ </mat-menu>
+
+ <mat-menu #clothing="matMenu">
+   <button mat-menu-item [matMenuTriggerFor]="topwear">Topwear</button>
+   <button mat-menu-item [matMenuTriggerFor]="winterwear">Winterwear</button>
+   <button mat-menu-item>Kurtha</button>
+   <button mat-menu-item>Saree</button>
+   <button mat-menu-item>Gown</button>
+   <button mat-menu-item>Dupattas</button>
+   <button mat-menu-item>Lehenga Choli</button>
+
+ </mat-menu>
+
+ <mat-menu #footwear="matMenu">
+   <button mat-menu-item>Sports Shoes</button>
+   <button mat-menu-item>Casual Shoes</button>
+   <button mat-menu-item>Formal Shoes</button>
+   
+ </mat-menu>
+
+ <mat-menu #topwear="matMenu">
+   <button mat-menu-item>Causal shirt</button>
+   <button mat-menu-item>Formal shirt</button>
+  
+ </mat-menu>
+
+ <mat-menu #winterwear="matMenu">
+   <button mat-menu-item>Sweater</button>
+   <button mat-menu-item>Jackets</button>
+   
+ </mat-menu>
+  <mat-menu #beauty="matMenu">
+   <button mat-menu-item>Make up</button>
+   <button mat-menu-item>Skin care</button>
+    <button mat-menu-item>Hair care</button>
+   
+ </mat-menu>
+
+
+ 
+ <button mat-button [matMenuTriggerFor]="kids">Kids</button>
+
+ <mat-menu #kids="matMenu">
+ <button mat-menu-item [matMenuTriggerFor]="toys">Toys</button>
+   <button mat-menu-item [matMenuTriggerFor]="babycare">Babycare</button>
+  
+  
+ </mat-menu>
+
+
+ <mat-menu #toys="matMenu">
+   <button mat-menu-item>Soft Toys</button>
+   <button mat-menu-item>Puzzle</button>
+   <button mat-menu-item>Dolls</button>
+    <button mat-menu-item>Outdoor Toys</button>
+	 <button mat-menu-item>Remote Control Toys</button>
+   
+ </mat-menu>
+
+ <mat-menu #babycare="matMenu">
+   <button mat-menu-item>Diapers</button>
+   <button mat-menu-item>Wipes</button>
+  <button mat-menu-item>Baby Food</button>
+  <button mat-menu-item>Baby SkinCare</button>
+ </mat-menu>
+
+ <button mat-button [matMenuTriggerFor]="decorators">Decorators</button>
+
+ <mat-menu #decorators="matMenu">
+ <button mat-menu-item [matMenuTriggerFor]="home_decorator">Home_decorator</button>
+   <button mat-menu-item [matMenuTriggerFor]="furnitures">furnitures</button>
+   <button mat-menu-item [matMenuTriggerFor]="kitchen">Kitchen</button>
+  
+ </mat-menu>
+
+
+ <mat-menu #home_decorator="matMenu">
+   <button mat-menu-item>Painting</button>
+   <button mat-menu-item>Cloths</button>
+   <button mat-menu-item>Stickers</button>
+    <button mat-menu-item>Outdoor Toys</button>
+	 <button mat-menu-item>Remote Control Toys</button>
+   
+ </mat-menu>
+
+
+ <mat-menu #furnitures="matMenu">
+   <button mat-menu-item [matMenuTriggerFor]="bed_room_furnitures">Bed_room_furnitures</button>
+   <button mat-menu-item [matMenuTriggerFor]="living_room_furnitures">Living_room_furnitures</button>
+   <button mat-menu-item>Sofa</button>
+   <button mat-menu-item>Dinning_table</button>
+ </mat-menu>
+<mat-menu #bed_room_furnitures="matMenu">
+   <button mat-menu-item>Beds</button>
+   <button mat-menu-item>Wardrobe</button>
+ </mat-menu>
+ <mat-menu #living_room_furnitures="matMenu">
+  <button mat-menu-item>TV</button>
+  <button mat-menu-item>Table</button>
+</mat-menu>
+
+ <mat-menu #kitchen="matMenu">
+   <button mat-menu-item>Pans</button>
+   <button mat-menu-item>Tawas</button>
+  <button mat-menu-item>Baby Cooker</button>
+
+ </mat-menu>
+
+ <button class="btn btn-primary" (click)="gotoHome()">Others</button>
+ 
+ 
+ 

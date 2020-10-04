@@ -1,0 +1,45 @@
+<mat-toolbar>
+  <img src="https://mysellersbuzz.com/cms_images/category_images/1570978570_flipkart1.jpg"style="width:150px;height:60px;" class="offset-s3">
+  <div class="input-group search-box">
+    <input class="form-control mr-sm-2" type="search" placeholder="search for products ,brands and more" aria-label="Search">
+    <div class="input-group-append">
+      <button type="button" class="btn btn-outline-success my-2 my-sm-0" type="submit"><span>Search</span></button>
+    </div>
+  </div>
+  <span class="fill-remaining-space"></span>
+  <button mat-button [matMenuTriggerFor]="more">More</button>
+<mat-menu #more="matMenu">
+
+  <button mat-menu-item>Nofification Preference</button>
+  <button mat-menu-item>Sell on Flipkart</button>
+  <button mat-menu-item>24x7 Customer care</button>
+   <button mat-menu-item>Advertise</button>
+  <button mat-menu-item>Download App</button>
+  
+</mat-menu>
+  <mat-icon>add_shopping_cart</mat-icon>
+  </mat-toolbar>
+<app-header></app-header>
+
+<h1><b>Best Of Electronices</b></h1>
+		
+    
+
+        <div class="row product_list" style="margin: 1em 0;">
+          <div class="col-sm-12 col-md-6 col-lg-4 product_list__item" *ngFor="let product of productData?.products; let i = index;">
+            <div class="card mb-4 shadow-sm pd-5">
+              <div class="product_list__image">
+               <img class="card-img-top" src="{{product.image}}" alt="Card image cap">
+              </div>
+  
+              <div class="card-body">
+                <h4>{{product.name}}</h4>
+                <p class="card-text">{{product.price}}</p>
+                
+                  
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      

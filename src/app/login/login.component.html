@@ -1,0 +1,61 @@
+<mat-toolbar>
+
+  <img src="https://content3.jdmagicbox.com/comp/chennai/u7/044pxx44.xx44.180411225011.p7u7/catalogue/flipkart-zonal-office-pudupakkam-chennai-business-centres-2lfq2ubcz0.jpg?clr=1b3b4b"style="width:150px;height:60px;" class="offset-s3">
+  <div class="input-group search-box">
+    <input class="form-control mr-sm-2" type="search" placeholder="search for products ,brands and more" aria-label="Search">
+    <div class="input-group-append">
+      <button type="button" class="btn btn-outline-success my-2 my-sm-0" type="submit"><span>Search</span></button>
+    </div>
+  </div>
+  
+  
+  <span class="fill-remaining-space"></span>
+    <button mat-button [matMenuTriggerFor]="more">More</button>
+  <mat-menu #more="matMenu">
+ 
+    <button mat-menu-item>Nofification Preference</button>
+    <button mat-menu-item>Sell on Flipkart</button>
+    <button mat-menu-item>24x7 Customer care</button>
+     <button mat-menu-item>Advertise</button>
+    <button mat-menu-item>Download App</button>
+    
+  </mat-menu>
+  <mat-icon>add_shopping_cart</mat-icon>
+  </mat-toolbar>
+
+  <h1 class="thicker">If its trendy, Its on Flipkart......</h1>
+  <div class="bg">
+    <div class="login-content">
+      <mat-toolbar class="login-toolbar" color="primary">Login</mat-toolbar>
+      <mat-card>
+        <mat-card-header>
+        
+        <img mat-card-image src="https://ak.picdn.net/shutterstock/videos/7823737/thumb/1.jpg">
+      </mat-card-header>
+      
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+          <mat-form-field>
+            <mat-icon matPrefix>person_outline</mat-icon>
+            <input autofocus type="text" matInput placeholder="Email_address" formControlName="emailId">
+			      <mat-error *ngIf="isFieldInvalid('emailId')">
+              Please inform your user name
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-icon matPrefix>lock_outline</mat-icon>
+            <input type="password" autocomplete="false" matInput placeholder="Password" formControlName="password">
+			<mat-error *ngIf="isFieldInvalid('password')">
+              Please inform your password
+            </mat-error>
+          </mat-form-field>
+
+          <button mat-raised-button class="bttn" type="submit">Login</button>
+          
+        </form>
+      </mat-card>
+    </div>
+</div>
+
+
+

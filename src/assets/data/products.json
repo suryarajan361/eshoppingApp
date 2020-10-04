@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "001",
+      "name": "Mi LED Smart TV 4A 108 cm (43)",
+      "price": 22999,
+      "image": "https://rukminim1.flixcart.com/image/832/832/jefzonk0/television/r/a/f/mi-l43m5-ai-original-imaf34hgjzc4xr62.jpeg?q=70",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    },
+    {
+      "id": "002",
+      "name": "Vu 80cm (32 inch) HD Ready LED TV",
+      "price": 15999,
+      "image": "https://rukminim1.flixcart.com/image/612/612/jdhp47k0/television/m/6/w/vu-32k160m-original-imaf27fyb4kuayaf.jpeg?q=70",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    },
+    {
+      "id": "003",
+      "name": "Micromax 81cm (32 inch) HD Ready LED TV",
+      "price": 11999,
+      "image": "https://rukminim1.flixcart.com/image/612/612/j7f2qvk0/television/5/p/8/micromax-32t8361hd-original-imaexntv64hkgssg.jpeg?q=70",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    },
+    {
+      "id": "004",
+      "name": "Wrist watches",
+      "price": 2400,
+      "image": "https://wallpaperaccess.com/full/795912.jpg",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    },
+    {
+      "id": "005",
+      "name": "Round silver wrist watches",
+      "price": 41000,
+      "image": "https://c4.wallpaperflare.com/wallpaper/816/832/60/watch-luxury-watches-ulysse-nardin-wallpaper-preview.jpg",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    },
+    {
+      "id": "006",
+      "name": "Latest Smart",
+      "price": 15400,
+      "image": "https://wallpapercave.com/wp/wp1853889.jpg",
+      "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+    }
+  ]
+}
